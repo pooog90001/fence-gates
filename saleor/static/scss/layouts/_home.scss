@@ -42,7 +42,11 @@
   }
   &__block1 {
     .home--square {
-      background-image: url('../images/block1.jpg');
+      background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/block1.jpg');
+      -webkit-background-size: cover;
+      -moz-background-size:  cover;
+      -o-background-size: cover;
+      background-size: cover;
       @include media-breakpoint-up(md) {
         &:before {
           padding-top: 50%;
@@ -53,13 +57,21 @@
   &__block2 {
     margin-top: $global-margin * 2;
     .home--square {
-      background-image: url('../images/block2.jpg');
+      background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/block2.jpg');
+      -webkit-background-size: cover;
+      -moz-background-size:  cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
   }
   &__block3 {
     margin-top: $global-margin * 2;
     .home--square {
-      background-image: url('../images/block3.jpg');
+      background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/block3.jpg');
+      -webkit-background-size: cover;
+      -moz-background-size:  cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
   }
   &__featured {
