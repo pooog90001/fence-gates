@@ -56,43 +56,10 @@ DATABASES = {
 
 
 TIME_ZONE = 'America/Chicago'
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'ru'
 LANGUAGES = [
-    ('ar', _('Arabic')),
-    ('az', _('Azerbaijani')),
-    ('bg', _('Bulgarian')),
-    ('bn', _('Bengali')),
-    ('ca', _('Catalan')),
-    ('cs', _('Czech')),
-    ('da', _('Danish')),
-    ('de', _('German')),
     ('en', _('English')),
-    ('es', _('Spanish')),
-    ('et', _('Estonian')),
-    ('fa', _('Persian')),
-    ('fr', _('French')),
-    ('hi', _('Hindi')),
-    ('hu', _('Hungarian')),
-    ('id', _('Indonesian')),
-    ('it', _('Italian')),
-    ('ja', _('Japanese')),
-    ('ko', _('Korean')),
-    ('mn', _('Mongolian')),
-    ('nb', _('Norwegian')),
-    ('nl', _('Dutch')),
-    ('pl', _('Polish')),
-    ('pt-br', _('Brazilian Portuguese')),
-    ('ro', _('Romanian')),
-    ('ru', _('Russian')),
-    ('sk', _('Slovak')),
-    ('sr', _('Serbian')),
-    ('sv', _('Swedish')),
-    ('th', _('Thai')),
-    ('tr', _('Turkish')),
-    ('uk', _('Ukrainian')),
-    ('vi', _('Vietnamese')),
-    ('zh-hans', _('Simplified Chinese')),
-    ('zh-hant', _('Traditional Chinese'))]
+    ('ru', _('Russian'))]
 LOCALE_PATHS = [os.path.join(PROJECT_ROOT, 'locale')]
 USE_I18N = True
 USE_L10N = True
