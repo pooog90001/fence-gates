@@ -53,7 +53,7 @@
       <div class=" d-none d-md-block container">
       <div class="row">
         <div class="col-6">
-          
+
         </div>
         <div class="col-6">
           <ul class="float-right">
@@ -141,7 +141,7 @@
               </form>
             {% endif %}
           </div>
-          <div class="col-2 col-md-3 navbar">
+          <div class="col-12 col-md-3 navbar">
             <div class="row ">
               <div class="col-12"><span class="float-right">Контакты:</span></div>
               <div class="col-12"><a class="float-right" href="tel:+375295262070">+375 29 526-20-70 (MTC)</a></div>
@@ -180,14 +180,14 @@
       <div class="row">
           {% footer_menu site_menu=site.settings.bottom_menu %}
         <div class="col-md-2 col-6">
-        <ul class="menu">
-          <li class="nav-item__dropdown menu__item">
-            <a>
-              <strong>
-                {% trans "Account" %}
-              </strong>
-            </a>
-            <hr />
+          <ul class="menu">
+            <li class="nav-item__dropdown menu__item">
+              <a>
+                <strong>
+                  {% trans "Account" %}
+                </strong>
+              </a>
+              <hr />
             <li>
               <a rel="nofollow" href="{% url "cart:index" %}">
                 {% trans "Your Cart" context "Main navigation item" %}
@@ -240,19 +240,19 @@
         <div class="offset-md-2 col-md-4 col-4">
           <div class="footer__menus__social-container">
             <div class="footer__menus__social">
-              <a target="_blank" rel="noopener" class="social-footer" href="https://www.facebook.com/mirumeelabs/">
+              <a target="_blank" rel="noopener" class="social-footer" href="https://www.facebook.com">
                 <svg data-src="{% static "images/facebook-logo.svg" %}" width="45px" height="45px"/>
               </a>
-              <a target="_blank" rel="noopener" class="social-footer" href="https://linkedin.com/company/mirumee-software">
+              <a target="_blank" rel="noopener" class="social-footer" href="https://linkedin.com">
                 <svg data-src="{% static "images/linkedin-logo.svg" %}" width="45px" height="45px"/>
               </a>
-              <a target="_blank" rel="noopener" class="social-footer" href="https://www.instagram.com/explore/tags/mirumee/">
+              <a target="_blank" rel="noopener" class="social-footer" href="https://www.instagram.com">
                 <svg data-src="{% static "images/instagram-logo.svg" %}" width="45px" height="45px"/>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-2 col-md-4 footer">
+        <div class="col-12 col-md-4 footer">
             <div class="row ">
               <div class="col-12"><span class="float-right">Контакты:</span></div>
               <div class="col-12"><a class="float-right" href="tel:+375295262070">+375 29 526-20-70 (MTC)</a></div>
@@ -270,7 +270,7 @@
             <svg data-src="{% static "images/logo-document.svg" %}"/>
           </a>
         </div>
-        <div class="col-8 footer__copy-text">COPYRIGHT © 2009–2019 MIRUMEE SOFTWARE</div>
+        <div class="col-8 footer__copy-text">COPYRIGHT © 2009–2019 Fence and Gates</div>
       </div>
     </div>
   </div>

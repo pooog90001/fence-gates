@@ -2,7 +2,7 @@
 # Copyright (C) 2017 Mirumee Software
 # This file is distributed under the same license as the Saleor package.
 # Mirumee Software <hello@mirumee.com>, 2017.
-# 
+#
 # Translators:
 # Patryk Zawadzki <patrys@room-303.com>, 2018
 # Dima Veselov <d.a.veselov@yandex.ru>, 2018
@@ -17,7 +17,7 @@
 # Weronika Terpilowska <weronika@mirumee.com>, 2019
 # Дмитрий К <kriv@sngy.ru>, 2019
 # Maxim <astra1@users.noreply.github.com>, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -5797,12 +5797,12 @@ msgstr "Купить сейчас"
 #: templates/home.html:29
 msgctxt "Homepage title"
 msgid "Size & Colours"
-msgstr "Размер и Цвета"
+msgstr "Профессионализм"
 
 #: templates/home.html:41
 msgctxt "Homepage title"
 msgid "Digital Downloads"
-msgstr "Цифровые загрузки"
+msgstr "Индивидуальный подход"
 
 #: templates/home.html:51
 msgctxt "Homepage title"
